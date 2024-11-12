@@ -1,5 +1,5 @@
 const express=require("express")
-const {signup,login}=require("../controller/jwt")
+const { signup,login }=require("../controller/jwt")
 
 const routejwt=express.Router();
 

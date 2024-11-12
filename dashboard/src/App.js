@@ -7,6 +7,7 @@ import Tables from './dashboard/Tables'; // Tables page
 import Login from './dashboard/Login'; 
 import Dash from "./components/Dash"
 import Users from './dashboard/Users';
+import From from './components/From';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
             <Route path="Prefrom" element={<Prefrom />} />
             <Route path="Dash" element={<Dash />} />
             <Route path='Users' element={<Users/>}/>
+            <Route path='From' element={<From/>}/>
+
           </Route>
         </Routes>
       </BrowserRouter>

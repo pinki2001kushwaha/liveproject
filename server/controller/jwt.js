@@ -1,7 +1,6 @@
 const con = require("../model/dbconnection");
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
-const { response } = require("express");
 
 const signup = async (req, res) => {
     try {
